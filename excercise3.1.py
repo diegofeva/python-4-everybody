@@ -13,7 +13,7 @@ if h > 40:
     normal_h = 40
     payment_extra = extra_h * (payment_rate*1.5)
     payment_normal = payment_rate * normal_h
-    payment = payment_extra +payment_normal
+    payment = payment_extra + payment_normal
     print(payment)
 else:
     payment = h * payment_rate
