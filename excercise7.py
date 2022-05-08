@@ -10,7 +10,7 @@ value=0
 # Use the file name mbox-short.txt as the file name
 fname = input("Enter file name: Yo can just hit enter if you desiree")
 if len(fname) < 1:
-    fname = "mbox-short.txt"
+    fname = "excercises\data\mbox-short.txt"
 fh = open(fname)
 
 for line in fh:
